@@ -7,7 +7,7 @@ public class FibonacciSeries {
       Scanner sc = new Scanner(System.in);
       System.out.print("Enter the number of terms: ");
       n = sc.nextInt();
-      System.out.print("Fibonacci Series: ");
+      System.out.print("Printing Fibonacci Series: ");
       for (int i = 1; i <= n; ++i) {
          System.out.print(t1 + " ");
          int sum = t1 + t2;
