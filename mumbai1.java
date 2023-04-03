@@ -7,6 +7,8 @@ public class FibonacciSeries {
       Scanner sc = new Scanner(System.in);
       System.out.print("Enter the number of terms: ");
       n = sc.nextInt();
+      if (n<0)
+	      System.out.println("Enter positive number");
       System.out.print("Printing Fibonacci Series: ");
       for (int i = 1; i <= n; ++i) {
          System.out.print(t1 + " ");
